@@ -7,6 +7,7 @@ image::rhel-logo-black.jpg[rhel-logo-black,55%,55%]
 
 == Variables
 
+[%hardbreaks]
 export TPA_REALM={tpa_realm}
 export TPA_CLI_CLIENT_SECRET={tpa_cli_client_secret}
 export TPA_ADMIN_USERNAME={tpa_admin_username}
@@ -17,6 +18,7 @@ export TAS_CHAINS_REALM={tas_chains_realm}
 export TAS_SSO_REALM={tas_sso_realm}
 export TPA_SERVER_URL={tpa_server_url}
 
+[%hardbreaks]
 git config --global user.email '{user}@demo.redhat.com'
 git config --global user.name ‘{user}'
 git config --global commit.gpgsign true
